@@ -1,7 +1,5 @@
 # Welcome to Mentorhub
 
-This organization is responsible for designing, building, and running the MentorHub platform. 
-
 ## Quick Start
 If you have [Docker Desktop](https://docs.docker.com/get-started/get-docker/) installed, you can simply download [this file](https://github.com/mentor-forge/mentorhub/blob/main/DeveloperEdition/docker-compose.yaml), and use the cli command 
 ```
