@@ -6,7 +6,7 @@ docker compose --profile all up --detach
 to start the services, and then visit http://localhost:8080
 
 ## Key Repo's
-| Shard | API's | SPA's |
+| Shared | API's | SPA's |
 | --- | --- | --- |
 | [mentorhub](https://github.com/mentor-forge/mentorhub) | [admin_api](https://github.com/mentor-forge/mentorhub_admin_api) | [admin_spa](https://github.com/mentor-forge/mentorhub_admin_spa) |
 | [api_utils](https://github.com/mentor-forge/mentorhub_api_utils) | [customer_api](https://github.com/mentor-forge/mentorhub_customer_api) | [customer_spa](https://github.com/mentor-forge/mentorhub_customer_spa) |
