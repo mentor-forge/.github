@@ -8,6 +8,7 @@ docker compose --profile all down || true &&
 rm ./docker-compose.yaml || true &&
 URL=https://raw.githubusercontent.com/mentor-forge/mentorhub/refs/heads/main &&
 curl $URL/DeveloperEdition/docker-compose.yaml > docker-compose.yaml &&
+docker compose --profile all pull &&
 docker compose --profile all up --detach &&
 open -a Safari "http://localhost:8080" || open -a 'Google Chrome' 'http://localhost:8080'
 ```
