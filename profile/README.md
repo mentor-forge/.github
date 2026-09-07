@@ -1,9 +1,17 @@
 ## Quick Start
-If you have [Docker Desktop](https://docs.docker.com/get-started/get-docker/) installed, you can simply download [this file](https://github.com/mentor-forge/mentorhub/blob/main/DeveloperEdition/docker-compose.yaml), and use the cli command 
+If you have [Docker Desktop](https://docs.docker.com/get-started/get-docker/) installed, you can simply run these commands in a terminal window.
 ```
-docker compose --profile all up --detach
+cd ~/ &&
+mkdir -p mentorhub &&
+cd mentorhub &&
+docker compose --profile all down || true &&
+rm ./docker-compose.yaml || true &&
+URL=https://raw.githubusercontent.com/mentor-forge/mentorhub/refs/heads/main &&
+curl $URL/DeveloperEdition/docker-compose.yaml > docker-compose.yaml &&
+docker compose --profile all up --detach &&
+open -a Safari "http://localhost:8080" || open -a 'Google Chrome' 'http://localhost:8080'
 ```
-to start the services, and then visit http://localhost:8080
+Then visit http://localhost:8080
 
 ## Key Repo's
 | Shared | API's | SPA's |
