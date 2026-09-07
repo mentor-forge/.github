@@ -1,5 +1,5 @@
 ## Quick Start
-If you have [Docker Desktop](https://docs.docker.com/get-started/get-docker/) installed, you can simply run these commands in a terminal window.
+Visit the [Live DEV environment](https://spark-478a.tailb0d293.ts.net/discovery/), or to run the local dev environment, Install [Docker Desktop](https://docs.docker.com/get-started/get-docker/), then run these commands in a terminal window.
 ```
 cd ~/ &&
 mkdir -p mentorhub &&
