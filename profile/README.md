@@ -12,7 +12,6 @@ docker compose --profile all pull &&
 docker compose --profile all up --detach &&
 open -a Safari "http://localhost:8080" || open -a 'Google Chrome' 'http://localhost:8080'
 ```
-Then visit http://localhost:8080
 
 ## Key Repo's
 | Shared | API's | SPA's |
